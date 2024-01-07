@@ -20,7 +20,7 @@ public class SampleController {
 
     @GetMapping("/emit")
     String queue1() {
-        logger.info("Emit to queue2");
+        logger.info("Emit to queue");
         template.convertAndSend("myQueue","Message to queue");
         return "Emit to queue";
     }
