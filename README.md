@@ -48,7 +48,7 @@ localhost:5432
 > ```shell
 > {
 >   "orderDate": "1999-03-01",
->   "requiredDate": "1999-03-03,
+>   "requiredDate": "1999-03-03",
 >   "employee_id": "3",
 >   "customer_id": "SAVEA"
 > }
